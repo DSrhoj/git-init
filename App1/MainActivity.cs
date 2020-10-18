@@ -19,7 +19,18 @@ namespace App1
 
             smrad = FindViewById<TextView>(Resource.Id.tv) ;
             FindViewById<Button>(Resource.Id.toni).Click += (o, e) =>
-            smrad.Visibility = Android.Views.ViewStates.Visible;
+            {
+                if (smrad.Visibility == Android.Views.ViewStates.Invisible)
+                {
+                    smrad.Visibility = Android.Views.ViewStates.Visible;
+                }
+
+                else
+                {
+                    smrad.Visibility = Android.Views.ViewStates.Invisible;
+                }
+
+            };
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
