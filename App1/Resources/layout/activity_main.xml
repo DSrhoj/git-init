@@ -43,25 +43,76 @@
         android:layout_height="match_parent"
         android:id="@+id/relativeLayout3">
         <Button
-        android:text="Duje"
-        android:layout_width="match_parent"
-        android:layout_height="167.5dp"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:id="@+id/toni2"
-        android:textSize="200px"/>
+            android:text="LogIn"
+            android:layout_width="match_parent"
+            android:layout_height="167.5dp"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/toni2"
+            android:textSize="200px"/>
         <TextView
-        android:text="ne smrdi"
-        android:layout_width="match_parent"
-        android:layout_height="109.0dp"
-        android:id="@+id/tv2"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:textSize="180px" />
-
+            android:text="***Nije sve uneseno***"
+            android:layout_width="match_parent"
+            android:layout_height="109.0dp"
+            android:id="@+id/tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1400px"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="100px" />
+        <EditText
+            android:layout_width="500px"
+            android:layout_height="200px"
+            android:id="@+id/editText1"
+            android:layout_marginLeft="300px"
+            android:layout_marginTop="750px"
+            android:textSize="100px"
+            android:password="false" 
+            />
+        <TextView
+            android:text="Ime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" 
+            android:textSize="100px"
+            android:layout_marginTop="800px" 
+            android:layout_marginLeft="50px"/>
+         <EditText
+            android:layout_width="500px"
+            android:layout_height="200px"
+            android:id="@+id/editText2"
+            android:layout_marginLeft="500px"
+            android:layout_marginTop="950px"
+            android:textSize="100px"
+            android:password="false" 
+            />
+        <TextView
+            android:text="Prezime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" 
+            android:textSize="100px"
+            android:layout_marginTop="1000px" 
+            android:layout_marginLeft="50px"/>
+        <EditText
+            android:layout_width="500px"
+            android:layout_height="200px"
+            android:id="@+id/editText3"
+            android:layout_marginLeft="500px"
+            android:layout_marginTop="1150px"
+            android:textSize="100px"
+            android:password="true" 
+            />
+        <TextView
+            android:text="Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" 
+            android:textSize="100px"
+            android:layout_marginTop="1200px" 
+            android:layout_marginLeft="50px"/>
         </RelativeLayout>
+    
 
 
 </RelativeLayout>
