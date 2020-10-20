@@ -12,17 +12,23 @@ namespace App1
         protected override void OnCreate(Bundle savedInstanceState)
         {
             TextView smrad;
+            RelativeLayout RL2, RL3;
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
-
+            
             smrad = FindViewById<TextView>(Resource.Id.tv) ;
+            RL3 = FindViewById<RelativeLayout>(Resource.Id.relativeLayout3);
+            RL3.Visibility = Android.Views.ViewStates.Invisible;
             FindViewById<Button>(Resource.Id.toni).Click += (o, e) =>
             {
                 if (smrad.Visibility == Android.Views.ViewStates.Invisible)
                 {
-                    smrad.Visibility = Android.Views.ViewStates.Visible;
+                    //smrad.Visibility = Android.Views.ViewStates.Visible;
+                    RL2 = FindViewById<RelativeLayout>(Resource.Id.relativeLayout2);
+                    RL2.Visibility = Android.Views.ViewStates.Invisible;
+                    RL3.Visibility = Android.Views.ViewStates.Visible;
                 }
 
                 else

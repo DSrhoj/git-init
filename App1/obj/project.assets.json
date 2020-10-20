@@ -1490,9 +1490,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Duje\\Desktop\\git-init\\App1\\App1.csproj",
-      "projectName": "App1",
-      "projectPath": "C:\\Users\\Duje\\Desktop\\git-init\\App1\\App1.csproj",
+      "projectUniqueName": "C:\\Users\\Duje\\Desktop\\git-init\\App1\\App2.csproj",
+      "projectName": "App2",
+      "projectPath": "C:\\Users\\Duje\\Desktop\\git-init\\App1\\App2.csproj",
       "packagesPath": "C:\\Users\\Duje\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Duje\\Desktop\\git-init\\App1\\obj\\",
       "projectStyle": "PackageReference",
