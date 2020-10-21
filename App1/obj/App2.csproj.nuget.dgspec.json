@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Duje\\Desktop\\git-init\\App1\\App2.csproj": {}
+    "C:\\Users\\Srhoj\\Desktop\\git-init\\App1\\App2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Duje\\Desktop\\git-init\\App1\\App2.csproj": {
+    "C:\\Users\\Srhoj\\Desktop\\git-init\\App1\\App2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Duje\\Desktop\\git-init\\App1\\App2.csproj",
+        "projectUniqueName": "C:\\Users\\Srhoj\\Desktop\\git-init\\App1\\App2.csproj",
         "projectName": "App2",
-        "projectPath": "C:\\Users\\Duje\\Desktop\\git-init\\App1\\App2.csproj",
-        "packagesPath": "C:\\Users\\Duje\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Duje\\Desktop\\git-init\\App1\\obj\\",
+        "projectPath": "C:\\Users\\Srhoj\\Desktop\\git-init\\App1\\App2.csproj",
+        "packagesPath": "C:\\Users\\Srhoj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Srhoj\\Desktop\\git-init\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Duje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Srhoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -38,6 +38,14 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
               "version": "[28.0.0.3, )"
